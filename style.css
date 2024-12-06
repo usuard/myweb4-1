@@ -1,0 +1,380 @@
+header {
+  width: 100%;
+  height: 10%;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes miAnimacion {
+  from {
+    color: rgb(98, 107, 100);
+  }
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(165, 163, 163);
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul li {
+  float: right;
+}
+
+header ul li a:hover {
+  color: white;
+}
+
+.section_e {
+  width: 100%;
+  display: block;
+}
+
+.arriba {
+  height: auto;
+  font-size: 19;
+  padding-top: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  gap: 2rem;
+}
+
+.arriba_left {
+  width: 100%;
+  display: block;
+  height: 13rem;
+}
+
+.abajo {
+  height: auto;
+  font-size: 19;
+  padding-top: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+
+.abajo_right {
+  width: 100%;
+  display: block;
+  height: 13rem;
+}
+
+.titulo {
+  animation: miAnimacion 4s infinite;
+  color: white;
+  padding-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60;
+  text-align: center;
+}
+
+.america {
+  width: 49%;
+  height: 100%;
+  float: left;
+  font-size: 19;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cuadro_left {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  padding-top: 1rem;
+}
+
+.caja1 {
+  background-image: url("img/cuadro1.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+
+.caja1:hover {
+  transition-duration: 1s;
+  opacity: 0.7;
+}
+
+.caja2 {
+  background-image: url("img/cuadro2.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+
+.caja2:hover {
+  transition-duration: 1s;
+  opacity: 0.7;
+}
+
+.tit_eu {
+  color: white;
+}
+
+.cuadro_right {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  padding-top: 1rem;
+}
+
+.caja3 {
+  background-image: url("img/cuadro3.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+
+.caja3:hover {
+  transition-duration: 1s;
+  opacity: 0.7;
+}
+
+.img3 {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+
+.img3:hover {
+  width: 500px;
+}
+
+.caja4 {
+  background-image: url("img/cuadro4.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+
+.caja4:hover {
+  transition-duration: 1s;
+  opacity: 0.7;
+}
+
+.img4 {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.img4:hover {
+  transform: translate(-500px) scale(1.5);
+  position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+body {
+  background-image: url("img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 2rem;
+}
+
+.tit_am {
+  color: white;
+}
+
+.europa {
+  width: 49%;
+  height: 100%;
+  float: right;
+  font-size: 19;
+  color: white;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img4 {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.img4:hover {
+  transform: translate(-500px) scale(1.5);
+  position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.section_a {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.left_a {
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-size: 19;
+  padding-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img1 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.img1:hover {
+  transition-duration: 1s;
+  opacity: 1;
+  filter: brightness(140%);
+  position: relative;
+}
+
+.right_a {
+  width: 50%;
+  height: 100%;
+  font-size: 19;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img2 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+.img2:hover {
+  transition-duration: 1s;
+  opacity: 1;
+  filter: brightness(140%);
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.contenedor {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0rem !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  .europa {
+    width: auto;
+    padding: 1rem;
+    height: auto;
+    float: none;
+  }
+  .caja1, .caja2, .caja3, .caja4 {
+    height: 12rem;
+    margin-left: 0;
+  }
+  .section_a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+  .right_a, .left_a {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+}
+@media (max-width: 1023px) {
+  body {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  main {
+    height: auto;
+  }
+  footer {
+    margin-top: 2rem;
+  }
+  .cuadro_right {
+    height: 11rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .caja1, .caja2, .caja3, .caja4 {
+    margin-left: 0;
+  }
+  .section_e {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .arriba, .abajo {
+    display: block;
+    height: auto;
+    padding: 1rem;
+  }
+  .arriba_left, .abajo_right {
+    float: none;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+  .img3, .img4 {
+    width: 100%;
+    position: relative;
+  }
+}
+.cabecera {
+  padding-top: 10px;
+}
+
+.footer {
+  scroll-behavior: smooth;
+  text-align: center;
+  margin-top: 1rem;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

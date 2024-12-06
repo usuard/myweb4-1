@@ -1,0 +1,32 @@
+
+@mixin caja_personalizada($alto, $ancho) 
+{
+    width: $ancho;
+    height: $alto;
+}
+
+header {
+    @include caja_personalizada(10%, 100%)
+}
+
+main {
+    @include caja_personalizada(auto, 100%)
+}
+
+@keyframes miAnimacion {
+    from {
+        color: rgb(98, 107, 100);
+    }
+}
+
+@import '_america_style.scss';
+
+@import '_europa_style.scss';
+
+@import '_index_style.scss';
+
+@import '_cabecera.scss';
+
+@import '_footer.scss';
+
+@import '_resetweb.scss';

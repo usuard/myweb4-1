@@ -1,0 +1,22 @@
+nav ul li a {
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+    font-weight: bold;
+    padding: 8px 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+header ul li a:hover {
+    color: white;
+}

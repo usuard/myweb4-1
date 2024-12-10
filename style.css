@@ -97,6 +97,13 @@ header ul li a:hover {
   padding-top: 1rem;
 }
 
+#direcciones {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(157, 171, 184);
+}
+
 .caja1 {
   background-image: url("img/cuadro1.jpg");
   background-repeat: no-repeat;
@@ -124,6 +131,7 @@ header ul li a:hover {
 }
 
 .tit_eu {
+  padding-bottom: 15px;
   color: white;
 }
 
@@ -192,6 +200,7 @@ body {
 }
 
 .tit_am {
+  padding-bottom: 15px;
   color: white;
 }
 
